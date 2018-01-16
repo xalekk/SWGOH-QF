@@ -461,7 +461,7 @@ client.on("message", async message => {
 	});
   }
 
-  if(command === "csolo") {
+  if(command === "shard") {
 	   let no_shard = args[0];
 	   let per_shard = args[1];
 
