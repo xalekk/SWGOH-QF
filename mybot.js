@@ -222,7 +222,7 @@ client.on("message", async message => {
       },
       {
         "name": "__**SHIP**__",
-        "value": "1. Remplissez les pelotons __sauf ceux avec le FAUCON MILLENIUM__\n2. Faites votre combat\n3. Vous pouvez d\u00e9ployer tous vos ships ensuite."
+        "value": "1. Remplissez les pelotons __sauf ceux IMPOSSIBLE (nouveaux vaisseaux)__\n2. Faites votre combat\n3. Vous pouvez d\u00e9ployer tous vos ships ensuite."
       },
 	  {
         "name": "__**PERSOS**__",
@@ -264,11 +264,11 @@ client.on("message", async message => {
 
       {
         "name": "__**SHIP**__",
-        "value": "1. Remplissez les pelotons __sauf ceux avec le **FAUCON MILLENIUM**, le **KYLO REN** ship ou le **TIE REAPER**__\n2. Faites votre combat\n3. Vous pouvez d\u00e9ployer tous vos ships ensuite."
+        "value": "1. Remplissez les pelotons __sauf ceux avec le **FO SF TIE FIGHTER**__\n2. Faites votre combat\n3. Vous pouvez d\u00e9ployer tous vos ships ensuite."
       },
 	  {
         "name": "__**PERSOS**__",
-        "value": "1. Remplissez les pelotons __sauf ceux avec les Ewoks r\u00e9cents__\n2. Si possible, attendez que les pelotons soit termin\u00e9.\n3. Faite la Sp\u00e9cial Mission\n4. Faites tous vos Combat Missions __le plus t\u00f4t possible!__"
+        "value": "1. Remplissez les pelotons __sauf ceux avec Rose et Holdo__\n2. Si possible, attendez que les pelotons soit termin\u00e9.\n3. Faite la Sp\u00e9cial Mission\n4. Faites tous vos Combat Missions __le plus t\u00f4t possible!__"
       },
 	  {
         "name": "__Une fois les combats termin\u00e9__",
