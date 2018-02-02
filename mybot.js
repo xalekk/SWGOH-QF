@@ -269,10 +269,6 @@ client.on("message", async message => {
 	  {
         "name": "__**PERSOS**__",
         "value": "1. Remplissez les pelotons __sauf ceux avec Rose et Holdo__\n2. Si possible, attendez que les pelotons soit termin\u00e9.\n3. Faite la Sp\u00e9cial Mission\n4. Faites tous vos Combat Missions __le plus t\u00f4t possible!__"
-      },
-	  {
-        "name": "__Une fois les combats termin\u00e9__",
-        "value": "-Vous pouvez d\u00e9ployer __EN BAS__ **jusqu'\u00e0 32M maximum!!!**\n-Le 32M atteint, le reste d\u00e9ploie __au milieu__!"
       }
 
     ]
