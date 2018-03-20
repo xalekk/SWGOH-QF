@@ -422,7 +422,7 @@ client.on("message", async message => {
 	   let pod2 = args[3];
 	   let pod3 = args[4];
     message.delete().catch(O_o=>{});
-	message.channel.send(`__**RAID AAT HEROIC**__ @everyone\n	Dernier podiums: ${pod1}, ${pod2}, ${pod3}\n	CAP = 12 millions`,{
+	message.channel.send(`__**RAID AAT HEROIC**__ @everyone\n	Ne doivent PAS être sur le podium: ${pod1}, ${pod2}, ${pod3}`,{
 
     embed: {
     title: "\n",
