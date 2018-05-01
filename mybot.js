@@ -77,8 +77,8 @@ client.on("message", async message => {
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_yodagrandmaster.png")
     message.channel.send({embed});
 
-  }
-
+  }	
+	
   if(command === "tbp1") {
     message.delete().catch(O_o=>{});
 	message.channel.send("__**Territory Battle - PHASE 1**__ @everyone",{
@@ -457,6 +457,25 @@ client.on("message", async message => {
 	});
   }
 
+  if(command === "sithh") {
+    	// makes the bot say something and delete the message. As an example, it's open to anyone to use.
+    	// To get the "message" itself we join the `args` back into a string with spaces:
+  	const dayHour = args.join(" ");
+    	// Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
+    	message.delete().catch(O_o=>{});
+    	// And we get the bot to say the thing:
+
+	const embed = new Discord.RichEmbed()
+    	//.setTitle("__**RAID SITH HEROIC**__")
+	.setDescription(`__**${dayHour}**__`)
+	//.addBlankField(true)
+	.setAuthor(message.member.displayName, message.author.avatarURL)
+	.setColor(0xa20410)
+	.setThumbnail("https://swgoh.gg/static/img/assets/raids/tex.guild_events_triumvirate.jpg")
+    message.channel.send(`__**RAID SITH HEROIC**__`,{embed});
+
+  }
+	
   if(command === "shard") {
 	   let no_shard = args[0];
 	   let per_shard = args[1];
