@@ -472,7 +472,7 @@ client.on("message", async message => {
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/raids/tex.guild_events_triumvirate.jpg")
-    message.channel.send(`__**RAID SITH HEROIC**__`,{embed});
+    message.channel.send(`__**RAID SITH HEROIC**__ @everyone`,{embed});
 
   }
 	
