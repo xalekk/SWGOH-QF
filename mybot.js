@@ -387,7 +387,7 @@ client.on("message", async message => {
     "color": 13671746,
 
     "thumbnail": {
-      "url": "https://swgoh.gg/static/img/assets/tex.charui_rancor.png"
+      "url": "https://swgoh.gg/static/img/assets/raids/tex.guild_events_rancor.jpg"
     },
     "image": {
       "url": ""
@@ -431,7 +431,7 @@ client.on("message", async message => {
     color: 3824016,
 
     thumbnail: {
-      url: "https://swgoh.gg/static/img/assets/tex.charui_aat_body.png"
+      url: "https://swgoh.gg/static/img/assets/raids/tex.guild_events_aat.jpg"
     },
     image: {
       url: ""
