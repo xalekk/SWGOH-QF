@@ -487,7 +487,7 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 1:point_left:`)
-	.addBlankField(true
+	.addBlankField(true)
 	.addField(`**Toujours en mode avion.**`,`Team JTR,  4%+ peuvent enregistrer.\nPour plus d'infos :point_right:  <#437585712464789524>`)
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
