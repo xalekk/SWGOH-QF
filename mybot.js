@@ -480,6 +480,7 @@ client.on("message", async message => {
     	// makes the bot say something and delete the message. As an example, it's open to anyone to use.
     	// To get the "message" itself we join the `args` back into a string with spaces:
   	const dayHour = args.join(" ");
+	let sithRole = message.guild.roles.get("448198255915040775");
     	// Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     	message.delete().catch(O_o=>{});
     	// And we get the bot to say the thing:
@@ -487,12 +488,12 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 1:point_left:`)
-	.addField(`**Toujours en mode avion.**`,`\nTeam JTR,  4%+ peuvent enregistrer.\nPour plus d'infos :point_right:  <#437585712464789524>`)
+	.addField(`**Toujours en mode avion.**`,`<br>Team JTR,  4%+ peuvent enregistrer.<br>Pour plus d'infos :point_right:  <#437585712464789524>`)
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_nihilusraid.png")
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ <@&448198255915040775>`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ ${sithRole}`,{embed});
 
   }
 	
@@ -500,6 +501,7 @@ client.on("message", async message => {
     	// makes the bot say something and delete the message. As an example, it's open to anyone to use.
     	// To get the "message" itself we join the `args` back into a string with spaces:
   	const dayHour = args.join(" ");
+	let sithRole = message.guild.roles.get("448198255915040775");
     	// Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     	message.delete().catch(O_o=>{});
     	// And we get the bot to say the thing:
@@ -507,12 +509,12 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 2:point_left:`)
-	.addField(`Tout le monde doit faire 2% minimum (1 million) durant cette phase.`,`\nPour la tactic de P2, vous pouvez consulter ici :point_right:  <#437594040435998740>`)
+	.addField(`Tout le monde doit faire 2% minimum (1 million) durant cette phase.`,`<br>Pour la tactic de P2, vous pouvez consulter ici :point_right:  <#437594040435998740>`)
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_sionraid.png")
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ <@&448198255915040775>`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ ${sithRole}`,{embed});
 
   }
 	
