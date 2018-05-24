@@ -494,7 +494,7 @@ client.on("message", async message => {
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_nihilusraid.png")
 	let sithRole = message.guild.roles.get("448198255915040775");
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ ${sithRole}`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ @"448198255915040775"`,{embed});
 
   }
 	
