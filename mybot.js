@@ -467,12 +467,33 @@ client.on("message", async message => {
 
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
-	.setDescription(`__**${dayHour}**__`)
+	.setDescription(`${dayHour}`)
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/raids/tex.guild_events_triumvirate.jpg")
     message.channel.send(`__**RAID SITH HEROIC**__ @everyone`,{embed});
+
+  }
+  
+    if(command === "sithhp1") {
+    	// makes the bot say something and delete the message. As an example, it's open to anyone to use.
+    	// To get the "message" itself we join the `args` back into a string with spaces:
+  	const dayHour = args.join(" ");
+    	// Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
+    	message.delete().catch(O_o=>{});
+    	// And we get the bot to say the thing:
+
+	const embed = new Discord.RichEmbed()
+    	//.setTitle("__**RAID SITH HEROIC**__")
+	.setDescription(`:point_right: Phase 1:point_left:`)
+	.setDescription(`**Toujours en mode avion.**`)
+	.setDescription(`Team JTR,  4%+ peuvent enregistrer./nPour plus d'infos :point_right:  #tactic-p1`)
+	//.addBlankField(true)
+	.setAuthor(message.member.displayName, message.author.avatarURL)
+	.setColor(0xa20410)
+	.setThumbnail("https://swgoh.gg/static/img/assets/raids/tex.guild_events_triumvirate.jpg")
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ @SITH`,{embed});
 
   }
 	
