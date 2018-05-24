@@ -487,13 +487,13 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 1:point_left:`)
-	.setDescription(`**Toujours en mode avion.**`)
-	.setDescription(`Team JTR,  4%+ peuvent enregistrer./nPour plus d'infos :point_right:  #tactic-p1`)
+	.addField(`**Toujours en mode avion.**`)
+	.addField(`Team JTR,  4%+ peuvent enregistrer.`,`Pour plus d'infos :point_right:  <#437585712464789524>`)
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/raids/tex.guild_events_triumvirate.jpg")
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ @SITH`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__<@448198255915040775>`,{embed});
 
   }
 	
