@@ -488,13 +488,13 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(":point_right: Phase 1:point_left:")
-	.addField("\n\n**Toujours en mode avion.**","\n\nTeam JTR,  4%+ peuvent enregistrer.\nPour plus d'infos :point_right:  <#437585712464789524>")
+	.addField(" \n**Toujours en mode avion.**"," \nTeam JTR,  4%+ peuvent enregistrer.\nPour plus d'infos :point_right:  <#437585712464789524>")
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_nihilusraid.png")
 	let sithRole = message.guild.roles.get("448198255915040775");
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ @"448198255915040775"`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC :boom:**__ @everyone`,{embed});
 
   }
 	
@@ -510,7 +510,7 @@ client.on("message", async message => {
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 2:point_left:`)
-	.addField("Tout le monde doit faire 2% minimum (1 million) durant cette phase.","\nPour la tactic de P2, vous pouvez consulter ici :point_right:  <#437594040435998740>")
+	.addField("Tout le monde doit faire 2% minimum (1 million) durant cette phase."," \nPour la tactic de P2, vous pouvez consulter ici :point_right:  <#437594040435998740>")
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
