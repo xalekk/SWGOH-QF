@@ -511,13 +511,13 @@ client.on("message", async message => {
 	let role = message.guild.roles.get('277103115013062656');
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
-	.setDescription(`:point_right: Phase 2 :point_left:`)
+	.setDescription(`:point_right: Phase 2 :point_left: ${role}`)
 	.addField("Tout le monde doit faire 2% minimum (1 million) durant cette phase.",".\nPour la tactic de P2, vous pouvez consulter ici :point_right:  <#437594040435998740>")
 	//.addBlankField(true)
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_sionraid.png")
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ ${role}`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ `,{embed});
 
   }
   
