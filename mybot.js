@@ -516,7 +516,7 @@ client.on("message", async message => {
 	.setAuthor(message.member.displayName, message.author.avatarURL)
 	.setColor(0xa20410)
 	.setThumbnail("https://swgoh.gg/static/img/assets/tex.charui_sionraid.png")
-    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ <@&408429086130831370>`,{embed});
+    message.channel.send(`__**:boom: SITH HEROIC:boom:**__ <@&451548364190777355>`,{embed});
 
   }
   
