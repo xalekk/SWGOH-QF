@@ -508,7 +508,7 @@ client.on("message", async message => {
 	   	// Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     	message.delete().catch(O_o=>{});
     	// And we get the bot to say the thing:
-	let role = message.guild.roles.get('451549948366946304');
+	let role = message.guild.roles.get('277103115013062656');
 	const embed = new Discord.RichEmbed()
     	//.setTitle("__**RAID SITH HEROIC**__")
 	.setDescription(`:point_right: Phase 2 :point_left:`)
